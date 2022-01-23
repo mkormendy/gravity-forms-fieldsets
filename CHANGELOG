@@ -1,10 +1,19 @@
 == Changelog ==
 
+= 0.3.5 =
+* Code refactoring to unbrand the plugin from "raak" references (since no longer maintained)
+* Added support for Gravity Forms 2.5 new markup structure
+* Added icons for fieldset begin/end in admin editor
+* Fix: Longstanding Javascript error when deleting fieldset end, now deleting is quicker too
+
+= 0.3.1 =
+* Fix: enable fieldset when loading form through AJAX
+
 = 0.3 =
-* Forked 
+* Forked
 
 = 0.2.2 =
-* Fix: Delete closing fieldset
+* Fix: Delete closing fieldset (attempt failed, see v0.3.5)
 
 = 0.2.1 =
 * Fix: Text Domain

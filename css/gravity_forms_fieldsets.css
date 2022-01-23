@@ -1,0 +1,16 @@
+/* fieldset styling - frontend */
+.gform_wrapper.gravity-theme fieldset.gfield.gfieldset {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr 2%)[12];
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(auto-fill, auto);
+  grid-column-gap: 2%;
+  grid-row-gap: 2px;
+}
+
+/* hack for IE11 not fully supporting CSS grids */
+.gform_wrapper.gravity-theme.gf_browser_ie .gform_fields fieldset.gfield.gfieldset {
+  display: inline-block;
+}

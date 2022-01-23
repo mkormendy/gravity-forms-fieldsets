@@ -1,0 +1,56 @@
+/* fieldset styling - backend admin */
+
+#gform_fields div.gform_fieldset_begin .gfield-admin-icons .gfield-icon .gform-icon,
+.sidebar__panel--settings.gform_fieldset_begin #sidebar_field_info #sidebar_field_icon,
+#fieldset_begin .button-icon {
+  position: relative;
+  top: -3px;
+  transform: scaleY(-1);
+}
+
+#gform_fields div.gform_fieldset_begin .gfield-admin-icons .gfield-icon .gform-icon:before,
+#gform_fields div.gform_fieldset_end .gfield-admin-icons .gfield-icon .gform-icon:before {
+  content: '\e928' !important;
+}
+
+#gform_fields li.gform_fieldset_begin,
+#gform_fields div.gform_fieldset_begin {
+  display: block;
+  color: #aaa;
+  text-align: center;
+}
+#gform_fields li.gform_fieldset_end,
+#gform_fields div.gform_fieldset_end {
+  display: block;
+  color: #aaa;
+  text-align: center;
+}
+
+#gform_fields li.gform_fieldset_begin,
+#gform_fields li.gform_fieldset_end,
+#gform_fields div.gform_fieldset_begin,
+#gform_fields div.gform_fieldset_end {
+  border-left: 2px #ccc dashed;
+  border-right: 2px #ccc dashed;
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+  word-break: normal;
+}
+
+#gform_fields li.gform_fieldset_begin,
+#gform_fields div.gform_fieldset_begin {
+  border-top: 2px #ccc dashed;
+}
+
+#gform_fields li.gform_fieldset_end,
+#gform_fields div.gform_fieldset_end {
+  border-bottom: 2px #ccc dashed;
+}
+
+#gform_fields li.gform_fieldset_begin .gfield_description,
+#gform_fields li.gform_fieldset_end .gfield_description,
+#gform_fields div.gform_fieldset_begin .gfield_description,
+#gform_fields div.gform_fieldset_end .gfield_description {
+  padding-top:20px;
+}
